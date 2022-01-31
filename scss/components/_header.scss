@@ -1,0 +1,20 @@
+/* Nesting o anidamiento */
+@import '../base/variables'
+
+.header {
+    background-color: $bg-color;
+       /* Media query header */
+   @media screen and (min-width: 980px) {
+    background-color: blue;
+   section {
+       background-color: transparent;
+       color: white;
+       div{
+           div {
+
+           }
+       }
+   }
+
+   }
+}
