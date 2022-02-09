@@ -1,5 +1,5 @@
 /* Nesting o anidamiento */
-@import '../base/variables'
+@import '../base/variables';
 
 .header {
     background-color: $bg-color;
@@ -9,11 +9,7 @@
    section {
        background-color: transparent;
        color: white;
-       div{
-           div {
 
-           }
-       }
    }
 
    }

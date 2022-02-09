@@ -3,3 +3,11 @@
 $bg-color: transparent;
 $font-general: 44px;
 $border-botones: 1px solid black;
+
+$primary-color: #93B5C6;
+$font-stack: helvetica, sans-serif;
+
+body {
+    color: $primary-color;
+    font: 100% $font-stack;
+}
